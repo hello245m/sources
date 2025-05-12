@@ -1,0 +1,107 @@
+package q;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.ByteBuffer;
+import k.d.c.z;
+
+/* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_2.dex */
+public final class a8 extends k.d.c.z<a8, a> implements Object {
+    public static final int BASE_RESP_FIELD_NUMBER = 1;
+    private static final a8 DEFAULT_INSTANCE = null;
+    private static volatile k.d.c.b1<a8> PARSER;
+    private k0 baseResp_;
+    private int bitField0_;
+    private byte memoizedIsInitialized;
+
+    /* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_2.dex */
+    public static final class a extends z.b<a8, a> implements Object {
+        public a() {
+        }
+
+        public /* synthetic */ a(k6 k6Var) {
+        }
+    }
+
+    private a8() {
+    }
+
+    public static /* synthetic */ a8 access$153500() {
+    }
+
+    public static /* synthetic */ void access$153600(a8 a8Var, k0 k0Var) {
+    }
+
+    public static /* synthetic */ void access$153700(a8 a8Var, k0 k0Var) {
+    }
+
+    public static /* synthetic */ void access$153800(a8 a8Var) {
+    }
+
+    private void clearBaseResp() {
+    }
+
+    public static a8 getDefaultInstance() {
+    }
+
+    private void mergeBaseResp(k0 k0Var) {
+    }
+
+    public static a newBuilder() {
+    }
+
+    public static a newBuilder(a8 a8Var) {
+    }
+
+    public static a8 parseDelimitedFrom(InputStream inputStream) throws IOException {
+    }
+
+    public static a8 parseDelimitedFrom(InputStream inputStream, k.d.c.q qVar) throws IOException {
+    }
+
+    public static a8 parseFrom(InputStream inputStream) throws IOException {
+    }
+
+    public static a8 parseFrom(InputStream inputStream, k.d.c.q qVar) throws IOException {
+    }
+
+    public static a8 parseFrom(ByteBuffer byteBuffer) throws k.d.c.c0 {
+    }
+
+    public static a8 parseFrom(ByteBuffer byteBuffer, k.d.c.q qVar) throws k.d.c.c0 {
+    }
+
+    public static a8 parseFrom(k.d.c.i iVar) throws k.d.c.c0 {
+    }
+
+    public static a8 parseFrom(k.d.c.i iVar, k.d.c.q qVar) throws k.d.c.c0 {
+    }
+
+    public static a8 parseFrom(k.d.c.j jVar) throws IOException {
+    }
+
+    public static a8 parseFrom(k.d.c.j jVar, k.d.c.q qVar) throws IOException {
+    }
+
+    public static a8 parseFrom(byte[] bArr) throws k.d.c.c0 {
+    }
+
+    public static a8 parseFrom(byte[] bArr, k.d.c.q qVar) throws k.d.c.c0 {
+    }
+
+    public static k.d.c.b1<a8> parser() {
+    }
+
+    private void setBaseResp(k0 k0Var) {
+    }
+
+    @Override // k.d.c.z
+    public final Object dynamicMethod(z.g gVar, Object obj, Object obj2) {
+    }
+
+    public k0 getBaseResp() {
+    }
+
+    public boolean hasBaseResp() {
+    }
+}

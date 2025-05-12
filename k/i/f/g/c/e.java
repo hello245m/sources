@@ -1,0 +1,32 @@
+package k.i.f.g.c;
+
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
+/* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_0.dex */
+public class e extends ThreadPoolExecutor {
+    public a a;
+
+    /* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_0.dex */
+    public interface a {
+        void a(Thread thread, Runnable runnable);
+
+        void b(Runnable runnable, Throwable th);
+    }
+
+    public e(int i2, int i3, long j2, TimeUnit timeUnit, BlockingQueue<Runnable> blockingQueue, a aVar) {
+    }
+
+    @Override // java.util.concurrent.ThreadPoolExecutor
+    public void afterExecute(Runnable runnable, Throwable th) {
+    }
+
+    @Override // java.util.concurrent.ThreadPoolExecutor
+    public void beforeExecute(Thread thread, Runnable runnable) {
+    }
+
+    @Override // java.util.concurrent.ThreadPoolExecutor, java.util.concurrent.Executor
+    public void execute(Runnable runnable) {
+    }
+}

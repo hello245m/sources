@@ -1,0 +1,18 @@
+package k.i.h.b.b.b.s;
+
+import androidx.lifecycle.Observer;
+import com.tencent.mp.feature.article.edit.ui.PublishArticleAddTopicActivity;
+import java.util.List;
+
+/* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_1.dex */
+public final /* synthetic */ class s0 implements Observer {
+    public final /* synthetic */ List a;
+    public final /* synthetic */ PublishArticleAddTopicActivity b;
+
+    public /* synthetic */ s0(List list, PublishArticleAddTopicActivity publishArticleAddTopicActivity) {
+    }
+
+    @Override // androidx.lifecycle.Observer
+    public final void onChanged(Object obj) {
+    }
+}

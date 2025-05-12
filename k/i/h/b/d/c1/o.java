@@ -1,0 +1,11 @@
+package k.i.h.b.d.c1;
+
+import android.content.Context;
+
+/* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_1.dex */
+public final class o {
+    public static final o a = null;
+
+    public final int a(Context context) {
+    }
+}

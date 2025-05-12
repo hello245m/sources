@@ -1,0 +1,18 @@
+package k.d.a.a.j4;
+
+import k.d.a.a.j4.o1;
+import k.d.a.a.x4.u;
+
+/* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_0.dex */
+public final /* synthetic */ class b implements u.a {
+    public final /* synthetic */ o1.a a;
+    public final /* synthetic */ int b;
+    public final /* synthetic */ boolean c;
+
+    public /* synthetic */ b(o1.a aVar, int i2, boolean z) {
+    }
+
+    @Override // k.d.a.a.x4.u.a
+    public final void invoke(Object obj) {
+    }
+}

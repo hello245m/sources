@@ -1,0 +1,8 @@
+package com.xiaomi.mipush.sdk;
+
+/* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_1.dex */
+public interface AbstractPushManager {
+    void register();
+
+    void unregister();
+}

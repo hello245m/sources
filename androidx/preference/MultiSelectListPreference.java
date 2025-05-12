@@ -1,0 +1,92 @@
+package androidx.preference;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.util.AttributeSet;
+import androidx.preference.Preference;
+import androidx.preference.internal.AbstractMultiSelectListPreference;
+import java.util.Set;
+
+/* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_0.dex */
+public class MultiSelectListPreference extends AbstractMultiSelectListPreference {
+    public CharSequence[] a;
+    public CharSequence[] b;
+    public Set<String> c;
+
+    public MultiSelectListPreference(Context context, AttributeSet attributeSet, int i2, int i3) {
+    }
+
+    @Override // androidx.preference.internal.AbstractMultiSelectListPreference
+    public Set<String> a() {
+    }
+
+    @Override // androidx.preference.internal.AbstractMultiSelectListPreference
+    public void b(Set<String> set) {
+    }
+
+    @Override // androidx.preference.internal.AbstractMultiSelectListPreference
+    public CharSequence[] getEntries() {
+    }
+
+    @Override // androidx.preference.internal.AbstractMultiSelectListPreference
+    public CharSequence[] getEntryValues() {
+    }
+
+    @Override // androidx.preference.Preference
+    public Object onGetDefaultValue(TypedArray typedArray, int i2) {
+    }
+
+    @Override // androidx.preference.Preference
+    public void onRestoreInstanceState(Parcelable parcelable) {
+    }
+
+    @Override // androidx.preference.Preference
+    public Parcelable onSaveInstanceState() {
+    }
+
+    @Override // androidx.preference.Preference
+    public void onSetInitialValue(Object obj) {
+    }
+
+    /* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_0.dex */
+    public static class a extends Preference.b {
+        public static final Parcelable.Creator<a> CREATOR = null;
+        public Set<String> a;
+
+        /* renamed from: androidx.preference.MultiSelectListPreference$a$a, reason: collision with other inner class name */
+        /* loaded from: C:\Users\elonm\Documents\fdtool\gzhdex\00O000ll111l_0.dex */
+        public static class C0004a implements Parcelable.Creator<a> {
+            public a a(Parcel parcel) {
+            }
+
+            public a[] b(int i2) {
+            }
+
+            @Override // android.os.Parcelable.Creator
+            public /* bridge */ /* synthetic */ a createFromParcel(Parcel parcel) {
+            }
+
+            @Override // android.os.Parcelable.Creator
+            public /* bridge */ /* synthetic */ a[] newArray(int i2) {
+            }
+        }
+
+        public a(Parcel parcel) {
+        }
+
+        @Override // android.view.AbsSavedState, android.os.Parcelable
+        public void writeToParcel(Parcel parcel, int i2) {
+        }
+
+        public a(Parcelable parcelable) {
+        }
+    }
+
+    public MultiSelectListPreference(Context context, AttributeSet attributeSet, int i2) {
+    }
+
+    public MultiSelectListPreference(Context context, AttributeSet attributeSet) {
+    }
+}
